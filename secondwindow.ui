@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecondWindow</class>
+ <widget class="QDialog" name="SecondWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="chickenBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>121</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Chicken Options</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="meatBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>70</y>
+     <width>121</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>30</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Meat Options</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addToCartButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add to Cart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewCartButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>221</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Cart</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accountBalanceLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Account Balance:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>161</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="itemPriceLabel">
+      <property name="font">
+       <font>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Item Price:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="addedItemsCountLabel">
+      <property name="font">
+       <font>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Number of added items:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
